@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+body{
+    background-image: url(https://hdqwalls.com/wallpapers/nature-beach-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+   input :focus{
+    border:none
+   }
+   .formmiddle{
+    width: 100;
+    display:flex;
+    justify-content: center;
+   }
+.submit.inputcss label{
+    width: 250px;
+    min-width: 200px;
+    max-width: 200px;
+}
+.submit.button{
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+}
+.submit.input{
+   border: 20px solid purple;
+   padding: 30px;
+   height: 60px;
+}
+.submit.button:hover{
+
+    background-color: rgb(86, 43, 226);
+    color: rgb(255, 127, 127);
+}
+.submit.inputcss{
+    margin-bottom: 1opx;
+    display: flex;
+}
+.submit{
+    background-color: bisque;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid rgb(21, 17, 16);
+}
+.submit.input:focus{
+    outline-color: chartreuse;
+}
+#id{
+    background-color: green;
+    color: white;
+}
+
+label{
+    width:210px;
+    display: inline-block;
+    margin: 0.2cm;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+input{
+    padding: 3px;
+    margin: 0px;
+    font-size: 16px;
+    border-radius: 1px;
+    border: 1px solid rgb(37, 114, 162);
+
+}
